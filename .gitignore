@@ -1,0 +1,32 @@
+# CodeIgniter 4 .gitignore
+#
+# Remove Composer's auto-generated vendor folder
+/vendor/
+
+# Remove tests folder
+/tests/
+
+# Remove writable folder contents
+/writable/cache/
+/writable/logs/
+/writable/session/
+/writable/debugbar/
+/writable/uploads/
+
+# Environment file
+.env
+
+# Any other custom files or folders you want to ignore
+# For example, if you use Node.js for frontend assets:
+# /node_modules/
+
+# IDE and OS generated files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+*.bak
+*.log
+*.swp
