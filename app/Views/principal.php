@@ -5,9 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PROGRAMA PROTEGER</title>
         <link rel="stylesheet" href="<?php echo base_url('css/miestilo.css'); ?>">
-        </head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
     
        <body>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <header>
             <div class="header-top">
                 <img src="<?php echo base_url('images/logoproteger.jpg'); ?>" alt="logo de la fundacion">
@@ -16,14 +19,15 @@
         <nav>
             <ul>
                 <li><a href="#dónde">Dónde</a></li>
-                <li><a href="#cuando">Cuándo</a><li>
+                <li><a href="#cuando">Cuándo</a></li>
                 <li><a href="#quienes">Quienes</a></li>
             </ul>
         </nav>
     </header>            
     <main>
         <div class="content-wrapper">
-            <section>
+           <section> <?php echo view('usuarios/crear'); ?> </section>
+
                 <h2>OBJETIVOS</h2>
                 <p>Desarrollar una estrategia de mejora en la accesibilidad a políticas Sociales, Sanitarias, Educativas y ambientales de los asentamientos de la ciudad de Corrientes </p>
                 <p> Organizar las acciones necesarias para dotar de accesibilidad a los servicios Sociales, Sanitarios, Educativos y Ambientales a 3400 familias; poniendo el foco en la asistencia a mujeres, embarazadas, niños, adolescentes y personas vulnerables.
@@ -32,7 +36,7 @@ Mejorar la gobernabilidad en estos territorios. Potenciar capacidades para el de
             </section>
             
             <section id="dónde">
-                <h2>CORRIENTES CAPITAL</h2>Asentamientos de los barrios Caridi, Quilmes, Santa Marta, Patono 1 y 2, Galvan 3, La Tosquera, San Jorge, San Roque Este, El Pinal, Fray Jose de la Quintana, Dr. Montaña, Pirayui, Costa Esperanza, Villa Tarima, Ciudades Correntinas, Ponce, Santa Rita Sur, Piragine, Taitalo, Sol de Mayo, Anahi, Bañado Norte y Cichero.</p>
+                <h2>CORRIENTES CAPITAL</h2>Asentamientos de los barrios Caridi, Quilmes, Santa Marta, Patono 1 y 2, Galvan 3, La Tosquera, San Jorge, San Roque Este, El Pinal, Fray Jose de la Quintana, Dr. Montaña, Pirayui, Costa Esperanza, Villa Tarima, Ciudades Correntinas, Ponce, Santa Rita Sur, Piragine, Taitalo, Sol de Mayo, Anahi, Bañado Norte y Cichero.
             </section>
             
             <section id="quienes">
